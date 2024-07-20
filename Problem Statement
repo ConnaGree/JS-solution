@@ -1,0 +1,15 @@
+Problem Statement
+Write a function sortWords that takes a string inputString containing words separated by hyphens (-). The function should:
+
+- Split the input string into individual words.
+- Sort these words alphabetically.
+- For each word, calculate the sum of its letter values. The value of a letter is determined by its position in the alphabet (i.e., 'a' or 'A' = 1, 'b' or 'B' = 2, ..., 'z' or 'Z' = 26).
+- If the sum of the letter values is even, sort the letters of the word in ascending order and convert them to lowercase.
+- If the sum of the letter values is odd, sort the letters of the word in descending order and convert them to lowercase.
+- Join the modified words back together with hyphens and print the result.
+
+Example Input:
+'Rjbu-rJhIryk-QATuUF-OyyjOoUAq-YNhbs'
+
+Example Output:
+'bjur-hijkrry-aafqtuu-oooquayy-bhns'
